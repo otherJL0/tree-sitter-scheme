@@ -1,0 +1,33 @@
+{
+  "name": "tree-sitter-scheme",
+  "version": "1.0.0",
+  "description": "Tree-sitter grammar for scheme",
+  "main": "index.js",
+  "scripts": {
+    "test": "tree-sitter test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otherJL0/tree-sitter-scheme.git"
+  },
+  "keywords": [
+    "scheme",
+    "tree-sitter",
+    "treesiter",
+    "parsing",
+    "grammar"
+  ],
+  "author": "Jonathan Lopez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/otherJL0/tree-sitter-scheme/issues"
+  },
+  "homepage": "https://github.com/otherJL0/tree-sitter-scheme#readme",
+  "dependencies": {
+    "nan": "^2.15.0"
+  },
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "tree-sitter-cli": "^0.20.1"
+  }
+}
